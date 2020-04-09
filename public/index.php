@@ -3,6 +3,7 @@
 require_once '../vendor/autoload.php';
 
 $hello = new \App\Wcs\Hello();
+$sayHello = new \HelloWorld\SayHello();
 
 echo $hello->talk() . "<br>";
-echo \HelloWorld\SayHello::world();
+echo $sayHello->world();
