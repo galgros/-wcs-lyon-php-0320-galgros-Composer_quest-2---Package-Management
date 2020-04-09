@@ -1,0 +1,19 @@
+{
+    "name": "gael/composer-quest",
+    "description": "composer quest 1",
+    "authors": [
+        {
+            "name": "galgros",
+            "email": "galgros@yahoo.fr"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+
+    "require-dev": {},
+
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
